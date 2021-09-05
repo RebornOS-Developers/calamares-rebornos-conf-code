@@ -1,0 +1,45 @@
+componentName: RebornOS
+
+welcomeStyleCalamares: false
+
+welcomeExpandingLogo: true
+
+windowExpanding: normal
+
+windowSize: 1200px,700px
+
+windowPlacement: center
+
+sidebar: widget
+
+navigation: widget
+
+strings:
+    productName:         RebornOS
+    shortProductName:    RebornOS
+    version:             2021.09.02
+    shortVersion:        2021.09.02
+    versionedName:       RebornOS
+    shortVersionedName:  RebornOS
+    bootloaderEntryName: RebornOS
+
+# log feature
+
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
+    
+images:
+    productLogo:         "RebornOS-logo.png"
+    productIcon:         "RebornOS-icon.png"
+    productWelcome:      "RebornOS-lang.png"
+    
+slideshowAPI: 2
+
+style:
+   sidebarBackground:    "#3e424d"
+   sidebarText:          "#ffffff"
+   sidebarTextSelect:    "#000000"
+   sidebarTextHighlight: "#f5f6f7"
+
+slideshow:               "show.qml"
